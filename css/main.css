@@ -1,0 +1,124 @@
+.myColor{
+    color: #d5d83c;
+}
+
+.myColor:hover{
+    color: #d5d83c;
+}
+.mybgc:hover{
+    color: #d5d83c;    
+}
+.mybutton{
+    background-color: #d5d83c;
+    box-shadow: 5px 5px 5px #d5d83c;
+    color:black;
+}
+
+.mybutton:hover{
+    background-color: black;
+    color: #d5d83c;
+    box-shadow: 5px 5px 5px #d5d83c;
+    border: 1px solid #d5d83c;
+}
+/* project */
+.Gproject{
+    background: rgb(78,78,56);
+background: linear-gradient(90deg, rgba(78,78,56,1) 0%, rgba(213,216,60,1) 100%);
+}
+/* footer */
+.footer-line{
+    border: 1px solid #d5d83c;
+}
+/* service */
+.icon{
+   font-size: 35px;
+   color: #d5d83c;
+}
+/* contact */
+.sociel-icon{
+    color: #d5d83c;
+    font-size: 25px;
+}
+
+.sociel-icon:hover{
+    color: white;
+    font-size: 25px;
+}
+
+/* .gradient{
+    background: rgb(246,246,226);
+    background: linear-gradient(90deg, rgba(246,246,226,1) 0%, rgba(213,216,60,1) 100%);
+} */
+
+.gradient2{
+    background: rgb(246,246,226);
+    background: linear-gradient(90deg, rgba(213,216,60,1) 60%, rgba(246,246,226,1) 40%,);
+}
+
+.btn{
+    cursor: pointer;
+    background-color: #d5d83c;
+    color:black;
+    box-shadow: 5px 5px 5px #d5d83c;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: black;
+    color: #d5d83c;
+    box-shadow: 5px 5px 5px #d5d83c;
+    border: 1px solid #d5d83c;
+}
+
+/* ppp up  */
+.borderr{
+    border: 1px solid #d5d83c;
+  }
+.overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+  }
+  .popup {
+    max-width: 100%;
+  }
+  .yellow-border {
+    border-color: #d5d83c;
+    
+  }
+
+  .btnpopup{
+    cursor: pointer;
+    background-color: #d5d83c;
+    color:black;
+    font-size: 18px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.btnpopup:hover{
+    background-color: black;
+    color: #d5d83c;
+    border: 1px solid #d5d83c;
+}
+ /* custmer says */
+ .nextbtn{
+    background-color: #d5d83c;
+    color:black;
+}.nextbtn:hover{
+    background-color: black;
+    color:#d5d83c;
+    border: 1px solid #d5d83c;
+}
+/* shake flashe in about us  */
+@keyframes shake {
+    0%, 100% { transform: translate(0, 0); }
+    25% { transform: translate(4px, 0); }
+    50% { transform: translate(-4px, 0); }
+    75% { transform: translate(4px, 0); }
+  }
+  
+  .shake {
+    animation: shake 0.9s infinite;
+  }
+  
