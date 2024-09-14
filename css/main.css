@@ -146,3 +146,21 @@ background: linear-gradient(90deg, rgba(78,78,56,1) 0%, rgba(213,216,60,1) 100%)
     animation: shakeUpDown 3s ease-in-out infinite;
   }
   
+  .after-line {
+    position: relative;
+  }
+  .after-line::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    height: 1px;
+    width: 0;
+    background-color: #fff;
+    transition: width 0.3s ease, left 0.3s ease;
+  }
+  .after-line:hover::after {
+    width: 100%;
+    left: 0;
+  }
+  
