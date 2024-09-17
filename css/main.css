@@ -1,3 +1,9 @@
+html, body {
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+    background: rgb(40,40,11);
+    background: linear-gradient(90deg, rgba(40,40,11,1) 0%, rgba(44,44,12,1) 1%, rgba(4,4,0,1) 20%, rgba(3,3,0,1) 100%, rgba(213,216,60,1) 100%);
+}
+
 .myColor{
     color: #d5d83c;
 }
@@ -146,16 +152,5 @@ background: linear-gradient(90deg, rgba(78,78,56,1) 0%, rgba(213,216,60,1) 100%)
     animation: shakeUpDown 3s ease-in-out infinite;
   }
 
-
-
-  .animated-element {
-    overflow: hidden;
-  }
-  
-  html, body {
-    overflow-x: hidden; /* Prevents horizontal scrolling */
-    background: rgb(40,40,11);
-    background: linear-gradient(90deg, rgba(40,40,11,1) 0%, rgba(44,44,12,1) 1%, rgba(4,4,0,1) 20%, rgba(3,3,0,1) 100%, rgba(213,216,60,1) 100%);
-}
 
   
