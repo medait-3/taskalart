@@ -36,6 +36,8 @@
 
    <!-- favicon -->
    <link rel="icon" type="image/png" href="img/faveicon.jfif" />
+   <!-- main css -->
+   <link rel="stylesheet" href="css/aos.css">
   <!-- main css -->
   <link rel="stylesheet" href="css/main.css">
   <!-- owl curoseal -->
@@ -49,17 +51,17 @@
   <!-- <link href="https://unpkg.com/flowbite@latest/dist/flowbite.min.css" rel="stylesheet"> -->
 
 </head>
-<body class="gradient2 text-white">
+<body class=" text-white">
 
 <!-- start nav bar -->
-<nav id="navbar" class="bg-black fixed w-full z-20 top-0 start-0 transition-all duration-300">
+<nav id="navbar" class="bg-black fixed w-full z-20 top-0 start-0  transition-all duration-300"> 
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
-    <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+    <a class="flex items-center space-x-3 rtl:space-x-reverse">
       <img src="img/Logo.png" class="h-12 w-auto" alt="Logo">
     </a>
     <div class="flex md:order-2 space-x-3 rtl:space-x-reverse">
       <button type="button" class="mybutton mx-6 py-1 px-5 mybutton:hover" onclick="openModal('modelConfirm')">Let's Talk</button>
-      <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-sticky" aria-expanded="false" id="burger-menu">
+      <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden  " aria-controls="navbar-sticky" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
           <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
@@ -69,16 +71,16 @@
     <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
       <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
         <li>
-          <a href="index.html" class="mybgc block md:inline-block py-3 md:border-none">Home</a>
+          <a href="index.html" class="mybgc block md:inline-block  py-3 md:border-none">Home</a>
         </li>
         <li>
           <a href="about-us.html" class="mybgc block md:inline-block py-3 md:border-none">About Us</a>
         </li>
         <li>
-          <a href="branding.html" class="mybgc block md:inline-block py-3 md:border-none">Process</a>
+          <a href="branding.html" class="mybgc block md:inline-block  py-3 md:border-none ">Process</a>
         </li>
         <li>
-          <a href="https://www.behance.net/taskalacreativ" class="mybgc block md:inline-block py-3 md:border-none">Projects</a>
+          <a href="https://www.behance.net/taskalacreativ" class="mybgc block md:inline-block  py-3  ">Projects</a>
         </li>
       </ul>
     </div>
@@ -88,11 +90,11 @@
 
 
 <!-- start hero -->
-<section class="relative pt-16 py-5 bg-black sm:pt-16 overflow-hidden">
+<section class="relative pt-16 py-5  sm:pt-16 overflow-hidden">
   <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-      <div class="text-center">
+      <div  class="text-center">
           <p class="max-w-4xl mx-auto mb-4 text-4xl font-bold leading-tight text-white sm:leading-tight sm:text-5xl lg:text-6xl lg:leading-tight">
-              <span class="myColor glow">We go beyond</span> your expectations.
+              <span class="myColor glow font-extrabold ">We go beyond</span> your expectations.
           </p>
           <h1 class="max-w-2xl mx-auto px-6 text-2xl text-white font-inter">
             We create brands and experiences that help our clients solve problems, 
@@ -102,15 +104,15 @@
   </div>
   
   <div class="mx-auto container flex px-5 md:flex-row flex-col items-center">
-    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center">
+    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left md:mb-0 items-center ">
     
   <!-- Clouds -->
-  <div class="mb-6 text-">
-  <div class="absolute  ">
-    <img src="img/shap.png" alt="Cloud" class="w-48 h-28 shake">
+  <div class="mb-16 ">
+  <div data-aos="fade-right" class="absolute">
+    <img src="img/index/shap.png" alt="Cloud" class="w-48 h-28 shake">
   </div>
   <div class="absolute px-32"> 
-    <img src="img/shap.png" alt="Cloud" class="w-48 h-28 shake">
+    <img src="img/index/shap.png" alt="Cloud" class="w-48 h-28 shake">
   </div>
 </div>
 
@@ -120,13 +122,13 @@
           <span class="myColor glow">The ladder (Taskala)</span> <br />of your ambitions
         </p>
     </div>
-    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-        <img class="object-cover object-center rounded " alt="hero" src="img/hero/hero.png">
+    <div data-aos="fade-down" class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <img class="object-cover object-center rounded " alt="hero" src="img/index/hero/hero.png">
     </div>
   </div>
 
   <!-- Background elements -->
-  <img src="img/yellow-moon.png" alt="Moon" class="absolute shake-up-down right-10 top-5 w-1/6 opacity-50 animate-spin-slow">
+  <img src="img/index/yellow-moon.png" alt="Moon" class="absolute shake-up-down right-10 top-5 w-1/6 opacity-50 animate-spin-slow">
 
 
   <!-- Additional Bottom SVG Wave -->
@@ -141,9 +143,9 @@
 
   <!-- about us -->
   <section class="text-center py-8 px-4 gradient2 ">
-    <h1 class="text-2xl text-black font-bold mb-8 text-center mb-16 mt-1" style="font-size: 40px;">About Us</h1>
-    <h2 class="text-2xl font-bold text-black" style="font-size: 55px;">  We speak Startup</h2>
-    <p class="mt-4 text-black text-2xl max-w-2xl mx-auto text-center" style="font-size: 20px;">
+    <h1 data-aos="fade-right" class="text-2xl text-black font-bold mb-8 text-center mb-16 mt-1" style="font-size: 40px;">About Us</h1>
+    <h2 data-aos="fade-right" class="text-2xl font-bold text-black" style="font-size: 55px;">  We speak Startup</h2>
+    <p data-aos="fade-left" class="mt-4 text-black text-2xl max-w-2xl mx-auto text-center" style="font-size: 20px;">
       We are not just an agency.
       We are also startup founders, advisors, and brand creators.
       Whether you are pre-seed or series B, our expertise will take your
@@ -154,10 +156,10 @@
 
 <!--why us section-->
 <section class="text-center py-8 px-4 gradient2 ">
-  <h1 class="text-2xl text-black font-bold mb-8 text-center mb-16  " style="font-size: 40px;">Why Us</h1> 
-  <h2 class="text-2xl font-bold text-black" style="font-size: 55px;"> We speak for </h2>
-    <h2 class="text-2xl font-bold text-black" style="font-size: 55px;"><span class="myColor">your audience.</h2>
-  <p class="mt-4 text-black  text-2xl max-w-2xl mx-auto text-bold text-center" style="font-size: 20px;">
+  <h1 data-aos="fade-right" class="text-2xl text-black font-bold mb-8 text-center mb-16  " style="font-size: 40px;">Why Us</h1> 
+  <h2 data-aos="fade-right" class="text-2xl font-bold text-black" style="font-size: 55px;"> We speak for </h2>
+    <h2 data-aos="fade-left" class="text-2xl font-bold text-black" style="font-size: 55px;"><span class="myColor">your audience.</h2>
+  <p data-aos="fade-right" class="mt-4 text-black  text-2xl max-w-2xl mx-auto text-bold text-center" style="font-size: 20px;">
     Morocco is a diverse country in its national, linguistic and
     cultural components, we understand well the local culture, and
     we are really upset when we see works that do not fit our
@@ -169,7 +171,7 @@
   
 
 <!-- strat service -->
-<section class="py-8 relative bg-black overflow-hidden mb-16 bg-cover md:bg-center md:bg-fixed" style="background-image: url('img/service/cycle.png');">
+<section class="py-8 relative overflow-hidden  bg-cover md:bg-center md:bg-fixed" style="background-image: url('img/index/service/cycle.png');">
   <!-- Top Wave Decoration -->
   <div class="absolute top-0 left-0 right-0">
       <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -180,24 +182,24 @@
   <h1 class="text-2xl text-white font-bold mt-16 text-center" style="font-size: 40px;">Service</h1>
 
   <div class="grid md:grid-cols-3 max-w-screen-lg mx-auto gap-10 mt-16 px-5">
-    <div class="flex gap-4 items-start flex-col">
-        <span class="rounded-full p-3 "><img src="img/service/brand.png" width="50"></span>
+    <div data-aos="fade-left" class="flex gap-4 items-start flex-col">
+        <span class="rounded-full p-3 "><img src="img/index/service/brand.png" width="50"></span>
         <div>
             <h3 class="font-semibold text-2xl myColor"> Brand Strategy</h3>
             <p class="mt-1 text-white text-xl">Whether you're gearing up for launch or pivoting after getting to know the market, a smart strategy sets you on the right path for sustainable growth.</p>
         </div>
     </div>
 
-    <div class="flex gap-4 items-start flex-col">
-        <span class=" p-3 rounded-full"><img src="img/service/visual.png" width="50px"></span>
+    <div data-aos="fade-left" class="flex gap-4 items-start flex-col">
+        <span class=" p-3 rounded-full"><img src="img/index/service/visual.png" width="50px"></span>
         <div>
             <h3 class="font-semibold text-2xl myColor">Visual Identity</h3>
             <p class="mt-1 text-white text-xl">We work with startups & creative organizations to design timeless and cohesive brand identities that set you apart and grow with you.</p>
         </div>
     </div>
 
-    <div class="flex gap-4 items-start flex-col">
-        <span class=" p-3 rounded-full"><img src="img/service/web.png" width="50px"></span>
+    <div data-aos="fade-left" class="flex gap-4 items-start flex-col">
+        <span class=" p-3 rounded-full"><img src="img/index/service/web.png" width="50px"></span>
         <div>
             <h3 class="font-semibold text-2xl myColor">Web</h3>
             <p class="mt-1 text-white text-xl">How does your brand translate to a web presence? You dream it, we make it happen together.</p>
@@ -213,61 +215,63 @@
 
 
 <!-- start projets -->
-<section class=" gradient2 py-8 ">
-  <h1 class="text-2xl text-black font-bold mb-16 text-center" style="font-size: 40px;">Projects</h1>
-  <div class="max-w-4xl mx-auto mt-2">
-      <div id="default-carousel" class="relative rounded-lg overflow-hidden ">
+<section class=" gradient2 py-16 ">
+  <h1 data-aos="fade-up" class="text-2xl text-black font-bold mb-16 text-center" style="font-size: 40px;">Projects</h1>
+  <div class="max-w-2xl mx-auto mt-2">
+    <div data-aos="fade-down" class="text-center   mb-16">
+      <a href="https://www.behance.net/taskalacreativ" class="btn text-black btn:hover">Show All Projects</a>
+    </div>
+      <div data-aos="flip-left" id="default-carousel" class="relative rounded-lg overflow-hidden ">
           <!-- Carousel wrapper -->
           <div class="relative h-full md:h-full rounded-lg owl-carousel  proj-carousel" >
               <!-- Item 1 -->
               <div class=" duration-700 ease-in-out ">
-                  <img src="img/projects/expeditiouslytrans-ma.jpeg"
+                  <img src="img/index/projects/expeditiouslytrans-ma.jpeg"
                        class="object-cover w-full h-full" alt="Slide 1">
               </div>
               <!-- Item 2 -->
               <div class=" duration-700 ease-in-out " >
-                  <img src="img/projects/GEDON-EXECUTIVE.jpeg"
+                  <img src="img/index/projects/GEDON-EXECUTIVE.jpeg"
                        class="object-cover w-full h-full" alt="Slide 2">
               </div>
               <!-- Item 3 -->
               <div class=" duration-700 ease-in-out">
-                  <img src="img/projects/Le-petit-Sésame.jpeg"
+                  <img src="img/index/projects/Le-petit-Sésame.jpeg"
                        class="object-cover w-full h-full" alt="Slide 3">
               </div>
               <!-- Item 4 -->
               <div class="duration-700 ease-in-out">
-                  <img src="img/projects/Magic-Buket.jpeg"
+                  <img src="img/index/projects/Magic-Buket.jpeg"
                        class="object-cover w-full h-full" alt="Slide 4">
               </div>
               <!-- Item 5 -->
               <div class=" duration-700 ease-in-out">
-                  <img src="img/projects/MOROCCAN-Delicious-Avocado.jpeg"
+                  <img src="img/index/projects/MOROCCAN-Delicious-Avocado.jpeg"
                        class="object-cover w-full h-full" alt="Slide 5">
               </div>
               <!-- Item 6 -->
               <div class="duration-700 ease-in-out">
-                  <img src="img/projects/Souss-Elégance.jpeg"
+                  <img src="img/index/projects/Souss-Elégance.jpeg"
                        class="object-cover w-full h-full" alt="Slide 6">
               </div>
           </div>
           <!-- Slider controls -->
-          <button type="button" id="customBacktBtn"
-                  class="flex absolute top-1/2 left-3 z-40 items-center justify-center w-10 h-10 bg-gray-200/50 rounded-full hover:bg-gray-300 focus:outline-none transition">
-              <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                   xmlns="http://www.w3.org/2000/svg">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+          <div class="relative flex justify-center items-center ">
+            <!-- Slider controls -->
+            <button type="button" id="customBacktBtn" 
+            class="flex items-center justify-center w-10 h-10 mx-2 rounded-full transition nextbtn ">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
               </svg>
-          </button>
-          <button type="button" id="customNextBtn" 
-                  class="flex absolute top-1/2 right-3 z-40 items-center justify-center w-10 h-10 bg-gray-200/50 rounded-full hover:bg-gray-300 focus:outline-none transition">
-              <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                   xmlns="http://www.w3.org/2000/svg">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </button>
+          
+            <button type="button" id="customNextBtn" 
+            class="flex items-center justify-center w-10 h-10 mx-2 rounded-full transition nextbtn">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
               </svg>
-          </button>
-      </div>
-      <div class="text-center  mb-16">
-        <a href="https://www.behance.net/taskalacreativ" class="btn text-black btn:hover">Show All Projects</a>
+            </button>
+          </div>
       </div>
   </div>
 </section>
@@ -276,8 +280,8 @@
 
 <!-- start contact -->
   <section class="gradient2 py-8">
-    <h1 class="text-2xl text-black  font-bold mb-16 text-center " style="font-size: 40px;">Contact</h1>
-    <div class="max-w-4xl mx-auto mb-16 p-8 bg-black rounded-lg shadow-2xl flex flex-col md:flex-row items-center shadow-grey-300/50">
+    <h1 data-aos="fade-up" class="text-2xl text-black  font-bold mb-16 text-center " style="font-size: 40px;">Contact</h1>
+    <div data-aos="flip-left" class="max-w-4xl mx-auto mb-16 p-8 bg-black rounded-lg shadow-2xl flex flex-col md:flex-row items-center shadow-grey-300/50">
         <!-- Left section -->
       <div class="md:w-2/3 md:pr-8">
         <h1 class="text-3xl font-bold mb-2">MOHAMMED AIT BERKA</h1>
@@ -313,9 +317,9 @@
       <!-- Right section -->
       <div class="md:w-1/3 mt-8 md:mt-0">
         <div class="relative">
-          <img src="img/contact/med-img.jpg" alt="Mohammed Ait Berka" class="w-full h-full object-cover rounded-lg shadow-lg footer-line">
+          <img src="img/index/contact/med-img.jpg" alt="Mohammed Ait Berka" class="w-full h-full object-cover rounded-lg shadow-lg footer-line">
           <div class="absolute bottom-8 right-16 transform rotate-12 shake px-8 py-14 ">
-            <img src="img/contact/hptsys.png" alt="smile" >
+            <img src="img/index/contact/hptsys.png" alt="smile" >
           </div>
         </div>
       </div>
@@ -324,7 +328,7 @@
 <!-- end contact -->
 
   <!-- star footer -->
-  <footer class="bg-black ">
+  <footer class=" ">
     <div class="w-full max-w-screen-xl mx-auto px-6 pt-3 ">
         <div class="sm:flex sm:items-center sm:justify-between">
             <a href="" class="flex items-center mb-4 sm:mb-0 space-x-3 ">
@@ -444,9 +448,10 @@
  
 <!-- Font Awesome -->
 <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-<!-- <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script> -->
 <script src="js/jquery.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
+<!-- aos -->
+<script src="js/aos.js"></script>
 <!-- main js -->
 <script src="js/main.js"></script>
 </body>

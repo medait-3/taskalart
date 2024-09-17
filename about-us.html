@@ -36,6 +36,8 @@
 
    <!-- favicon -->
    <link rel="icon" type="image/png" href="img/faveicon.jfif" />
+   <!-- aos css -->
+   <link rel="stylesheet" href="css/aos.css">
   <!-- main css -->
   <link rel="stylesheet" href="css/main.css">
   <!-- owl curoseal -->
@@ -45,21 +47,19 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Tailwind CSS CDN -->
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <!-- Flowbite CSS -->
-  <!-- <link href="https://unpkg.com/flowbite@latest/dist/flowbite.min.css" rel="stylesheet"> -->
 
 </head>
 <body class="text-white">
 
 <!-- start nav bar -->
-<nav id="navbar" class="bg-black fixed w-full z-20 top-0 start-0  transition-all duration-300">
+<nav id="navbar" class="bg-black fixed w-full z-20 top-0 start-0  transition-all duration-300"> 
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
-    <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+    <a class="flex items-center space-x-3 rtl:space-x-reverse">
       <img src="img/Logo.png" class="h-12 w-auto" alt="Logo">
     </a>
     <div class="flex md:order-2 space-x-3 rtl:space-x-reverse">
       <button type="button" class="mybutton mx-6 py-1 px-5 mybutton:hover" onclick="openModal('modelConfirm')">Let's Talk</button>
-      <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-sticky" aria-expanded="false">
+      <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden  " aria-controls="navbar-sticky" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
           <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
@@ -78,7 +78,7 @@
           <a href="branding.html" class="mybgc block md:inline-block  py-3 md:border-none ">Process</a>
         </li>
         <li>
-          <a href="https://www.behance.net/taskalacreativ" class="mybgc block md:inline-block  py-3 md:border-none ">Projects</a>
+          <a href="https://www.behance.net/taskalacreativ" class="mybgc block md:inline-block  py-3  ">Projects</a>
         </li>
       </ul>
     </div>
@@ -88,9 +88,9 @@
 
 
 <!-- start hero -->
-<section class="relative py-5 pt-16 overflow-hidden bg-black">
+<section class="relative py-5 pt-16 overflow-hidden ">
   <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 mb-16">
-    <div class="text-center">
+    <div data-aos="fade-down"class="text-center">
         <p class="max-w-4xl mx-auto text-4xl font-bold leading-tight text-white sm:leading-tight sm:text-5xl lg:text-6xl lg:leading-tight">
             This is<span class="myColor"> Taskalart</span>
         </p>
@@ -110,8 +110,8 @@
   style="background-image: url('img/about-img/chabaka.png'); background-size: cover; "
   class="lg:flex-grow mt-5 md:mt-0   md:w-1.5/2 lg:pr-24 md:pr-16 md:pt-10 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <!-- Quotation Mark Icon -->
-      <img src="img/about-img/action.png" alt=""  style="height: 15px;">
-      <p class="mb-8 md:pl-0  pl-2   leading-relaxed text-lg ">  
+      <img data-aos="fade-left"src="img/about-img/action.png" alt=""  style="height: 15px;">
+      <p data-aos="fade-right"class="mb-8 md:pl-0  pl-2   leading-relaxed text-lg ">  
         Years went by, I found myself involved in helping people
         around me grow their businesses, and that's how I got into
         branding.<br />
@@ -123,8 +123,8 @@
 </p>
       <div class=" ">
         <p class="myColor px-12  font-semibold">Mohamed Ait Berka</p>
-        <p class="px-12">Founder & Managing Director of Taskalart </p>
-          <img src="img/about-img/signature.png" alt=""  style="height: 50px;" class=" px-32">
+        <p data-aos="fade-right"class="px-12">Founder & Managing Director of Taskalart </p>
+          <img data-aos="flip-left"src="img/about-img/signature.png" alt=""  style="height: 50px;" class=" px-32">
       </div> 
   </div><div class="lg:max-w-lg lg:w-full mb-5 md:mb-0 md:w-2/2 w-3/4 relative">
     <img class="object-cover object-center rounded w-full h-auto" alt="hero" src="" id="lightimage">
@@ -132,10 +132,10 @@
 </div>
 
 
-<div class="flex flex-col md:flex-row items-center justify-center bg-black mb-32 mt-10">
+<div class="flex flex-col md:flex-row items-center justify-center mb-32 mt-10">
   <!-- Left Text -->
   <div class="text-white text-center md:mr-10  md:mb-0">
-    <p class="text-lg">Taskala: Amazingh word of a piece of equipment for climbing to reach high up</p>
+    <p data-aos="fade-right"class="text-lg ">Taskala: Amazingh word of a piece of equipment for climbing to reach high up</p>
   </div>
     <!-- Arrows for mobile, displayed on smaller screens -->
     <div class="md:hidden  items-center mt-4 mb-2">
@@ -155,7 +155,7 @@
   </div>
   <!-- Right Text -->
   <div class="text-white text-center md:ml-10">
-    <p class="text-lg">Art: Something that is created with imagination and skill and that is beautiful or that expresses important ideas or feelings</p>
+    <p data-aos="fade-left"class="text-lg">Art: Something that is created with imagination and skill and that is beautiful or that expresses important ideas or feelings</p>
   </div>
 </div>
 
@@ -171,14 +171,14 @@
 
 
   <!-- staart our value -->
-    <section class="mx-auto py-12  px-4 bg-gray-800">
-      <h1 class="text-4xl font-bold myColor text-center">Our Values</h1>
+  <section class="mx-auto py-12  px-4 bg-gray-800">
+      <h1 data-aos="fade-left"class="text-4xl font-bold myColor text-center">Our Values</h1>
       <p class="mt-4 text-white  text-center">
         Our values are there to remind us of who we are, and what we want to be. They guide everything we do, from our approach to work, to how we treat people.
       </p>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
         <!-- We're all in this together -->
-        <div class="bg-gray-800 shadow-2xl p-6 rounded-lg">
+        <div class="bg-gray-800 shadow-2xl p-6 rounded-lg"data-aos="flip-left">
           <div class="flex items-center mb-4">
             <div class="text-3xl ">
               <img src="img/about-img/_values/heart.png" alt="heat" style="height: 55px;">
@@ -190,7 +190,7 @@
           </p>
         </div>
         <!-- Figure it out -->
-        <div class="bg-gray-800 shadow-2xl p-6 rounded-lg">
+        <div class="bg-gray-800 shadow-2xl p-6 rounded-lg"data-aos="flip-left">
           <div class="flex items-center mb-4">
             <div class="text-3xl ">
               <img src="img/about-img/_values/figure.png" alt="figure" style="height: 85px;">
@@ -202,7 +202,7 @@
           </p>
         </div>
         <!-- High standards -->
-        <div class="bg-gray-800 shadow-2xl p-6 rounded-lg">
+        <div class="bg-gray-800 shadow-2xl p-6 rounded-lg"data-aos="flip-left">
           <div class="flex items-center mb-4">
             <div class="text-3xl ">
               
@@ -221,8 +221,8 @@
   
 
 <!-- start clients says -->
-<section class="bg-black   "> 
-  <h1 class="text-2xl font-bold myColor py-5 text-center">Here is what what our customers say about us </h1>
+<section class=""> 
+  <h1 data-aos="fade-left"class="text-2xl font-bold myColor py-5 text-center">Here is what what our customers say about us </h1>
  <!-- button slide  -->
  <div class="relative flex justify-center items-center ">
   <!-- Slider controls -->
@@ -240,10 +240,10 @@
     </svg>
   </button>
 </div>
-  <div class="owl-carousel owl-theme Clientsays-carousel">
+  <div class="owl-carousel owl-theme Clientsays-carousel"data-aos="fade-right">
     <!-- item1 -->
-    <div class="item bg-black shadow-2xl" data-merge="2">
-      <div class="flex flex-col justify-between rounded-lg  borderr bg-black p-4 shadow-2xl max-w-sm mx-auto mb-10 mt-5">
+    <div class="item  shadow-2xl" data-merge="2">
+      <div class="flex flex-col justify-between rounded-lg  borderr  p-4 shadow-2xl max-w-sm mx-auto mb-10 mt-5">
         <!--" -->
         <div class=""> 
           <img src="img/about-img/action.png" alt=""  style="height: 15px; width: 20px;"> </div>
@@ -269,8 +269,8 @@
     </div>
     </div>
       <!-- item2 -->
-      <div class="item bg-black shadow-2xl" data-merge="2">
-        <div class="flex flex-col justify-between rounded-lg  borderr bg-black p-4 shadow-2xl max-w-sm mx-auto mb-10 mt-5">
+      <div class="item  shadow-2xl" data-merge="2">
+        <div class="flex flex-col justify-between rounded-lg  borderr  p-4 shadow-2xl max-w-sm mx-auto mb-10 mt-5">
           <!--" -->
           <div class=""> 
             <img src="img/about-img/action.png" alt=""  style="height: 15px; width: 20px;"> </div>
@@ -294,8 +294,8 @@
           </div>
       </div>
       </div>  <!-- item3 -->
-      <div class="item bg-black shadow-2xl" data-merge="2">
-        <div class="flex flex-col justify-between rounded-lg  borderr bg-black p-4 shadow-2xl max-w-sm mx-auto mb-10 mt-5">
+      <div class="item  shadow-2xl" data-merge="2">
+        <div class="flex flex-col justify-between rounded-lg  borderr  p-4 shadow-2xl max-w-sm mx-auto mb-10 mt-5">
           <!--" -->
           <div class=""> 
             <img src="img/about-img/action.png" alt=""  style="height: 15px; width: 20px;"> </div>
@@ -319,8 +319,8 @@
           </div>
       </div>
       </div>  <!-- item4 -->
-      <div class="item bg-black shadow-2xl" data-merge="2">
-        <div class="flex flex-col justify-between rounded-lg  borderr bg-black p-4 shadow-2xl max-w-sm mx-auto mb-10 mt-5">
+      <div class="item  shadow-2xl" data-merge="2">
+        <div class="flex flex-col justify-between rounded-lg  borderr  p-4 shadow-2xl max-w-sm mx-auto mb-10 mt-5">
           <!--" -->
           <div class=""> 
             <img src="img/about-img/action.png" alt=""  style="height: 15px; width: 20px;"> </div>
@@ -343,8 +343,8 @@
           </div>
       </div>
       </div>  <!-- item5 -->
-      <div class="item bg-black shadow-2xl" data-merge="2">
-        <div class="flex flex-col justify-between rounded-lg  borderr bg-black p-4 shadow-2xl max-w-sm mx-auto mb-10 mt-5">
+      <div class="item  shadow-2xl" data-merge="2">
+        <div class="flex flex-col justify-between rounded-lg  borderr  p-4 shadow-2xl max-w-sm mx-auto mb-10 mt-5">
           <!--" -->
           <div class=""> 
             <img src="img/about-img/action.png" alt=""  style="height: 15px; width: 20px;"> </div>
@@ -368,8 +368,8 @@
           </div>
       </div>
       </div>  <!-- item6 -->
-      <div class="item bg-black shadow-2xl" data-merge="2">
-        <div class="flex flex-col justify-between rounded-lg  borderr bg-black p-4 shadow-2xl max-w-sm mx-auto mb-10 mt-5">
+      <div class="item  shadow-2xl" data-merge="2">
+        <div class="flex flex-col justify-between rounded-lg  borderr  p-4 shadow-2xl max-w-sm mx-auto mb-10 mt-5">
           <!--" -->
           <div class=""> 
             <img src="img/about-img/action.png" alt=""  style="height: 15px; width: 20px;"> </div>
@@ -395,8 +395,8 @@
           </div>
       </div>
       </div>  <!-- item7 -->
-      <div class="item bg-black shadow-2xl" data-merge="2">
-        <div class="flex flex-col justify-between rounded-lg  borderr bg-black p-4 shadow-2xl max-w-sm mx-auto mb-10 mt-5">
+      <div class="item  shadow-2xl" data-merge="2">
+        <div class="flex flex-col justify-between rounded-lg  borderr  p-4 shadow-2xl max-w-sm mx-auto mb-10 mt-5">
           <!--" -->
           <div class=""> 
             <img src="img/about-img/action.png" alt=""  style="height: 15px; width: 20px;"> </div>
@@ -419,8 +419,8 @@
           </div>
       </div>
       </div>  <!-- item8-->
-      <div class="item bg-black shadow-2xl" data-merge="2">
-        <div class="flex flex-col justify-between rounded-lg  borderr bg-black p-4 shadow-2xl max-w-sm mx-auto mb-10 mt-5">
+      <div class="item  shadow-2xl" data-merge="2">
+        <div class="flex flex-col justify-between rounded-lg  borderr  p-4 shadow-2xl max-w-sm mx-auto mb-10 mt-5">
           <!--" -->
           <div class=""> 
             <img src="img/about-img/action.png" alt=""  style="height: 15px; width: 20px;"> </div>
@@ -451,23 +451,23 @@
 
 
 <!-- start button are u ready to climb -->
-<section class="relative -z-10 overflow-hidden bg-black py-12 px-16 ">
+<section class="relative -z-10 overflow-hidden py-12 px-16 ">
   <div class="">
       <div class="-mx-4 flex flex-wrap items-center">
           <div class="w-full lg:w-1/1">
               <div class="text-center lg:text-center">
                   <div class="mb-10 lg:mb-0 ">
-                    <h1
+                    <h1 data-aos="fade-left"
                     class="mt-0 mb-3 text-2xl font-bold leading-tight  sm:leading-tight md:text-[40px] md:leading-tight myColor">
                     Ready to bring your brand to life ?
-                  </h1><p
+                  </h1><p data-aos="fade-right"
                   class="mt-0 mb-10 font-bold leading-tight  sm:leading-tight md:text-[40px] md:leading-tight text-white ">
                   We craft brands & pretty much anything a startup needs to enter the next growth phase
                 </p>
                   </div>
               </div>
           </div>
-          <div class="w-full px-4 lg:w-1/1 text-center ">
+          <div data-aos="fade-left"class="w-full px-4 lg:w-1/1 text-center ">
               <a   class="btn btn:hover " onclick="openModal('modelConfirm')">Let's do it together</a>
               
           </div>
@@ -482,8 +482,8 @@
 <!-- end button are u ready to climb -->
 
 
-  <!-- star footer -->
-  <footer class="bg-black ">
+<!-- star footer -->
+  <footer class="">
     <div class="w-full max-w-screen-xl mx-auto px-6 ">
         <div class="sm:flex sm:items-center sm:justify-between">
             <a href="" class="flex items-center mb-4 sm:mb-0 space-x-3 ">
@@ -499,8 +499,8 @@
     </div>
     <hr class="my-2 footer-line md:my-4 " />
     <p class="text-gray-400 block text-sm  pb-2 text-center sm:text-center">All rights reserved ©<span id="year"></span></p>
-</footer>
-  <!-- end footer -->
+  </footer>
+<!-- end footer -->
 
 <!-- pop up for button contact -->
 <div id="modelConfirm" class="fixed hidden z-50 inset-0 bg-gray-900 bg-opacity-60 overflow-y-auto h-full w-full px-4 ">
@@ -603,9 +603,10 @@
 
 <!-- Font Awesome -->
 <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-<!-- <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script> -->
 <script src="js/jquery.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
+<!-- aos -->
+<script src="js/aos.js"></script>
 <!-- main js -->
 <script src="js/main.js"></script>
 <script> 
